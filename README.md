@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Zelda-Reddit
+This project will provide a minimalistic form of Reddit. The user will be able to select subreddits related to various Zelda games on the right, which will cause posts related to that subreddit to show in the rest of the application space.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Each subreddit post will display the title and any text or picture that comes with the post. Furthermore, the post’s number of upvotes and downvotes will be displayed in a small column to the left of the post. We will add another column to the right of the post, which will contain the author and date of the post. More importantly, the column on the right will have a button that can be pushed in order to add the post to a list of favorites. Finally, underneath the post, several comments will display if any are available.
 
-## Available Scripts
+The column of subreddits on the right will actually be hidden at first. By clicking on a fixed button labeled “subreddits”, the subreddits will display in the column on the right. Among the various Zelda-themed subreddits, there will also be a “Favorites” subreddit. This is not a subreddit; it is actually a collection of posts that the user has favorited.
 
-In the project directory, you can run:
+## How to install / run
+This project was created through `create-react-app`. 
 
-### `npm start`
+Begin by navigating to the root folder of the project and entering `npm install`. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the project, simply navigate to the root folder of the project and enter `npm run`. This may take a few minutes to get started.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Wireframes
+![wireframe_picture_1]('./images/wireframes/wireframe_image_1.jpg')
 
-### `npm test`
+![wireframe_picture_2]('./images/wireframes/wireframe_image_2.jpg')
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies used
+- HTML, CSS, JavaScript
+- React
+- Redux
+- Jest
 
-### `npm run build`
+### Features
+N/A
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Future Work
+N/A

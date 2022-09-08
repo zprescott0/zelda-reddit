@@ -13,9 +13,9 @@ Begin by navigating to the root folder of the project and entering `npm install`
 To run the project, simply navigate to the root folder of the project and enter `npm run`. This may take a few minutes to get started.
 
 ### Wireframes
-![wireframe_picture_1]('./images/wireframes/wireframe_image_1.jpg')
+![wireframe_picture_1](/images/wireframes/wireframe_image_1.jpg)
 
-![wireframe_picture_2]('./images/wireframes/wireframe_image_2.jpg')
+![wireframe_picture_2](/images/wireframes/wireframe_image_2.jpg)
 
 ### Technologies used
 - HTML, CSS, JavaScript

@@ -1,18 +1,25 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { selectStore } from './store/store';
+import { selectSearchTerm, setSearchTerm } from './store/searchTermSlice';
 
 import './App.css';
 
 function App() {
+  const dispatch = useDispatch();
+  const store = useSelector(selectStore);
+  const searchTerm = useSelector(selectSearchTerm);
+
   const handleClick1 = () => {
-    console.log('Testing 1');
+    console.log(store);
   }
 
   const handleClick2 = () => {
-    console.log('Testing 2');
+    console.log(searchTerm);
   }
 
   const handleClick3 = () => {
-    console.log('Testing 3');
+    dispatch(setSearchTerm('newSearchTermValue'));
+    console.log('Action dispatched.');
   }
 
   return (

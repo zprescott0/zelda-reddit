@@ -8,4 +8,6 @@ const store = configureStore({
     }
 });
 
+export const selectStore = store => store;
+
 export default store;

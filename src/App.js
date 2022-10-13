@@ -2,6 +2,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectStore } from './store/store';
 import { selectSearchTerm, setSearchTerm } from './store/searchTermSlice';
 
+import { Header } from './Components/Header/Header';
+
 import './App.css';
 
 function App() {
@@ -29,7 +31,7 @@ function App() {
       <button onClick={handleClick2}>Button 2</button>
       <button onClick={handleClick3}>Button 3</button>
       */}
-      Header goes here
+      <Header />
     </div>
   );
 }

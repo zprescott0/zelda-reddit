@@ -24,9 +24,12 @@ function App() {
 
   return (
     <div className="App">
+      {/*
       <button onClick={handleClick1}>Button 1</button>
       <button onClick={handleClick2}>Button 2</button>
       <button onClick={handleClick3}>Button 3</button>
+      */}
+      Header goes here
     </div>
   );
 }

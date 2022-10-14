@@ -4,9 +4,10 @@
 }
 
 .title-text {
-    color: green;
+    color: black;
     position: relative;
     top: -15px;
 
     font-family: zeldaTitleFont;
+    font-size: 24px;
 }

@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { selectStore } from './store/store';
 import { selectSearchTerm, setSearchTerm } from './store/searchTermSlice';
+import { selectUpdateTime, setUpdateTime } from './store/updateTimeSlice';
 
 import { Header } from './Components/Header/Header';
 
@@ -8,29 +9,28 @@ import './App.css';
 
 function App() {
   const dispatch = useDispatch();
-  const store = useSelector(selectStore);
-  const searchTerm = useSelector(selectSearchTerm);
+  const updateTime = useSelector(selectUpdateTime);
 
   const handleClick1 = () => {
-    console.log(store);
+    console.log(updateTime);
   }
 
   const handleClick2 = () => {
-    console.log(searchTerm);
+    //console.log(updateTime.toLocaleTimeString());
   }
 
   const handleClick3 = () => {
-    dispatch(setSearchTerm('newSearchTermValue'));
-    console.log('Action dispatched.');
+    const newDate = new Date();
+    dispatch(setUpdateTime(newDate.toLocaleTimeString()));
   }
 
   return (
     <div className="App">
-      {/*
+      
       <button onClick={handleClick1}>Button 1</button>
       <button onClick={handleClick2}>Button 2</button>
       <button onClick={handleClick3}>Button 3</button>
-      */}
+      
       <Header />
     </div>
   );

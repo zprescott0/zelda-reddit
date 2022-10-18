@@ -1,5 +1,6 @@
 import { Title } from "./Title/Title";
 import { SearchBar } from "./SearchBar/SearchBar";
+import { UpdateTime } from "./UpdateTime/UpdateTime";
 
 export const Header = props => {
     return (
@@ -7,6 +8,7 @@ export const Header = props => {
             <div className='header'>
                 <Title />
                 <SearchBar />
+                <UpdateTime />
             </div>
         </div>
     );

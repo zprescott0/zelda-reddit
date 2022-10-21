@@ -1,3 +1,5 @@
+import './header.css';
+
 import { Title } from "./Title/Title";
 import { SearchBar } from "./SearchBar/SearchBar";
 import { UpdateTime } from "./UpdateTime/UpdateTime";

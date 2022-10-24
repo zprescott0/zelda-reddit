@@ -1,0 +1,13 @@
+@font-face {
+    font-family: zeldaTitleFont;
+    src: url('../../../Fonts/Hylia\ Serif\ Beta\ v0-009/HyliaSerifBeta-Regular.otf');
+}
+
+.title-text {
+    color: black;
+    position: relative;
+    top: -15px;
+
+    font-family: zeldaTitleFont;
+    font-size: 24px;
+}

@@ -1,27 +1,33 @@
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectStore } from './store/store';
-import { selectSearchTerm, setSearchTerm } from './store/searchTermSlice';
-import { selectUpdateTime, setUpdateTime } from './store/updateTimeSlice';
+import { setPostsState, selectPosts } from './store/postsSlice';
 
 import { Header } from './Components/Header/Header';
 
 import './App.css';
 
+import { mockData_zelda } from './mockData';
+
 function App() {
   const dispatch = useDispatch();
-  const updateTime = useSelector(selectUpdateTime);
+  const store = useSelector(selectStore);
+  const posts = useSelector(selectPosts);
+
+  useEffect(() => {
+    dispatch(setPostsState(mockData_zelda.posts));
+  }, [dispatch]);
 
   const handleClick1 = () => {
-    console.log(updateTime);
+    console.log(store);
   }
 
   const handleClick2 = () => {
-    //console.log(updateTime.toLocaleTimeString());
+    console.log(posts);
   }
 
   const handleClick3 = () => {
-    const newDate = new Date();
-    dispatch(setUpdateTime(newDate.toLocaleTimeString()));
+    dispatch(setPostsState(mockData_zelda.posts));
   }
 
   return (

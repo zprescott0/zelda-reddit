@@ -92,7 +92,7 @@ export const mockData_comments = {
         body: `I think its just that a couple of things we've seen in totk do fit zonai ruins designs. The dragons in the games logo are just like the statues in faron. Creating a champion also points out the zonai spiral pattern which kinda looks like the "magatamas" surrounding the giant figure in the latest trailer. \n\nI will admit that we dont *really* know that zonai will be in the game without any doubt, but for now it's easy to just call them zonai as a placeholder name before we get confirmation.`
     }, {
         author: 'Outrageous_Net8365',
-        body: `Zonai &gt; Sheikah tech imo. I\’m glad there\’s a shift of discussion`
+        body: `Zonai &gt; Sheikah tech imo. I’m glad there’s a shift of discussion`
     }, {
         author: 'easycure',
         body: "I get where you're coming from, I've felt that way too on occasion, but I'm at the point now where it doesn't bug me and I can take it or leave it. \n\nIf TotK decided to expand on the lore by adding Zonai as some ancient, pre-hylian race, awesome, great, maybe they'll be expanded on in other games too. I don't recall anyone hating on Goron's, Zora, or Ruto as races/tribes that expand the lore and world building a bit better. Zonai could just be that. \n\nIf TotK does nothing with the Zonai other then vaguely allude to them the way they were in BotW, I'm fine with that too. I just want to spend another 150-200hrs exploring every inch of the amazing world Aunuma and his team can craft, and mess around with all the fun new mechanics. \n\nEither way, all the Zelda YouTubers will continue to put out their theories, which can be fun in their own right, even if the theories have no impact on the actual game."

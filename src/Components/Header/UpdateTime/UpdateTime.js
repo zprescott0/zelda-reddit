@@ -7,7 +7,7 @@ import { selectUpdateTime } from '../../../store/updateTimeSlice';
 export const UpdateTime = props => {
     const updateTime = useSelector(selectUpdateTime);
 
-    return <div class='update-time-container'>
-        <span class='update-time'>Last updated: {updateTime}</span>
+    return <div className='update-time-container'>
+        <span className='update-time'>Last updated: {updateTime}</span>
     </div>;
 }

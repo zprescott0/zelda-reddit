@@ -4,6 +4,7 @@ import { selectStore } from './store/store';
 import { setPostsState, selectPosts } from './store/postsSlice';
 
 import { Header } from './Components/Header/Header';
+import { UpVoteButton } from './Components/MainContent/Posts/Post/VoteBar/UpVote/UpVoteButton';
 
 import './App.css';
 
@@ -38,6 +39,7 @@ function App() {
       <button onClick={handleClick3}>Button 3</button>
       */}
       <Header />
+      <UpVoteButton />
     </div>
   );
 }

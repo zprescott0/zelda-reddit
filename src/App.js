@@ -5,6 +5,7 @@ import { setPostsState, selectPosts } from './store/postsSlice';
 
 import { Header } from './Components/Header/Header';
 import { UpVoteButton } from './Components/MainContent/Posts/Post/VoteBar/UpVote/UpVoteButton';
+import { DownVoteButton } from './Components/MainContent/Posts/Post/VoteBar/DownVote/DownVoteButton';
 
 import './App.css';
 
@@ -40,6 +41,7 @@ function App() {
       */}
       <Header />
       <UpVoteButton />
+      <DownVoteButton />
     </div>
   );
 }

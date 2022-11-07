@@ -6,6 +6,7 @@ import { setPostsState, selectPosts } from './store/postsSlice';
 import { Header } from './Components/Header/Header';
 import { UpVoteButton } from './Components/MainContent/Posts/Post/VoteBar/UpVote/UpVoteButton';
 import { DownVoteButton } from './Components/MainContent/Posts/Post/VoteBar/DownVote/DownVoteButton';
+import { Score } from './Components/MainContent/Posts/Post/VoteBar/Score/Score';
 
 import './App.css';
 
@@ -42,6 +43,12 @@ function App() {
       <Header />
       <UpVoteButton />
       <DownVoteButton />
+      <Score />
+      <Score score={-1} />
+      <Score score={12} />
+      <Score score={123} />
+      <Score score={1234} />
+      <Score score={12345} />
     </div>
   );
 }

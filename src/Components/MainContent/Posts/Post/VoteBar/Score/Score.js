@@ -1,4 +1,4 @@
-
+import './score.css';
 
 export const Score = props => {
     console.log(props.score);

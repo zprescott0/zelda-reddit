@@ -2,6 +2,7 @@
     props:
     -num: An integer to indicate which style to use.
 */
+import { VoteBar } from "./VoteBar/VoteBar";
 
 export const TempPost = props => {
     const testStyle1 = {
@@ -35,6 +36,7 @@ export const TempPost = props => {
     };
 
     return <div className='temp-post'>
+        <VoteBar />
         <div className='content' style={currentStyle}></div>
     </div>
 };

@@ -2,6 +2,9 @@
     props:
     -num: An integer to indicate which style to use.
 */
+
+import './tempPost.css';
+
 import { VoteBar } from "./VoteBar/VoteBar";
 
 export const TempPost = props => {

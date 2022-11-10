@@ -4,10 +4,8 @@ import { selectStore } from './store/store';
 import { setPostsState, selectPosts } from './store/postsSlice';
 
 import { Header } from './Components/Header/Header';
-import { UpVoteButton } from './Components/MainContent/Posts/Post/VoteBar/UpVote/UpVoteButton';
-import { DownVoteButton } from './Components/MainContent/Posts/Post/VoteBar/DownVote/DownVoteButton';
-import { Score } from './Components/MainContent/Posts/Post/VoteBar/Score/Score';
 import { VoteBar } from './Components/MainContent/Posts/Post/VoteBar/VoteBar';
+import { TempPost } from './Components/MainContent/Posts/Post/TempPost';
 
 import './App.css';
 
@@ -42,7 +40,9 @@ function App() {
       <button onClick={handleClick3}>Button 3</button>
       */}
       <Header />
-      <VoteBar />
+      <TempPost />
+      <TempPost />
+      <TempPost />
     </div>
   );
 }

@@ -42,14 +42,6 @@ function App() {
       <button onClick={handleClick3}>Button 3</button>
       */}
       <Header />
-      <UpVoteButton />
-      <DownVoteButton />
-      <Score />
-      <Score score={-1} />
-      <Score score={12} />
-      <Score score={123} />
-      <Score score={1234} />
-      <Score score={12345} />
       <VoteBar />
     </div>
   );

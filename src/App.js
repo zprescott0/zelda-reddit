@@ -40,9 +40,9 @@ function App() {
       <button onClick={handleClick3}>Button 3</button>
       */}
       <Header />
-      <TempPost />
-      <TempPost />
-      <TempPost />
+      <TempPost num={1} />
+      <TempPost num={2} />
+      <TempPost num={3} />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import { Header } from './Components/Header/Header';
 import { UpVoteButton } from './Components/MainContent/Posts/Post/VoteBar/UpVote/UpVoteButton';
 import { DownVoteButton } from './Components/MainContent/Posts/Post/VoteBar/DownVote/DownVoteButton';
 import { Score } from './Components/MainContent/Posts/Post/VoteBar/Score/Score';
+import { VoteBar } from './Components/MainContent/Posts/Post/VoteBar/VoteBar';
 
 import './App.css';
 
@@ -49,6 +50,7 @@ function App() {
       <Score score={123} />
       <Score score={1234} />
       <Score score={12345} />
+      <VoteBar />
     </div>
   );
 }

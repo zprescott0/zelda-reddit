@@ -1,3 +1,7 @@
+/*
+    Needed props:
+    -score: The number to be displayed.
+*/
 import './score.css';
 
 export const Score = props => {

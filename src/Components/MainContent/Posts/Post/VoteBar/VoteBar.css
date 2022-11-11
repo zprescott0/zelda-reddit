@@ -1,0 +1,11 @@
+.votebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

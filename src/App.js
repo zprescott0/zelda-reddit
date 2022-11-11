@@ -4,6 +4,8 @@ import { selectStore } from './store/store';
 import { setPostsState, selectPosts } from './store/postsSlice';
 
 import { Header } from './Components/Header/Header';
+import { VoteBar } from './Components/MainContent/Posts/Post/VoteBar/VoteBar';
+import { TempPost } from './Components/MainContent/Posts/Post/TempPost';
 
 import './App.css';
 
@@ -38,6 +40,9 @@ function App() {
       <button onClick={handleClick3}>Button 3</button>
       */}
       <Header />
+      <TempPost num={1} />
+      <TempPost num={2} />
+      <TempPost num={3} />
     </div>
   );
 }

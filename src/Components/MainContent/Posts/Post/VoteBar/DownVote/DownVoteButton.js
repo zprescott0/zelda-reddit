@@ -4,6 +4,8 @@ import downArrow from '../../../../../../Images/assets/downArrow.png';
 import downArrowClicked from '../../../../../../Images/assets/downArrow-Clicked.png';
 import downArrowHover from '../../../../../../Images/assets/downArrowHover.png';
 
+import './downVote.css';
+
 export const DownVoteButton = props => {
     const [image, setImage] = useState(downArrow);
 

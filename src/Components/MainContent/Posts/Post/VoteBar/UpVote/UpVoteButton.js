@@ -4,6 +4,8 @@ import upArrow from '../../../../../../Images/assets/upArrow.png';
 import upArrowClicked from '../../../../../../Images/assets/upArrow-Clicked.png';
 import upArrowHover from '../../../../../../Images/assets/upArrowHover.png';
 
+import './upVote.css';
+
 export const UpVoteButton = props => {
 
     const [image, setImage] = useState(upArrow);
